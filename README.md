@@ -25,7 +25,7 @@ Implementation of both Cuckoo hashing and the chaining approach in Python, with 
 | `cuckoo-hashing.py` | Cuckoo hash table; inserts 500 random keys into a table of size 1,000 with a verbose log of placements and kicks |
 | `chaining-hashing.py` | Hash table with chaining; inserts 20 keys, prints the table and times one search |
 | `comparison.py` | Resizing cuckoo table vs. chaining, lookup-time comparison over 10 iterations |
-| `cuckoo-undergrad.pdf` | Reference lecture note on cuckoo hashing and chaining |
+| `docs/cuckoo-undergrad.pdf` | Reference lecture note on cuckoo hashing and chaining |
 
 ## Getting started
 
@@ -45,4 +45,4 @@ Python 3 (standard library: `random`, `math`, `time`).
 
 ## Credits
 
-`cuckoo-undergrad.pdf` is Rasmus Pagh's lecture note *Cuckoo Hashing for Undergraduates* (IT University of Copenhagen, 2006), included as reference material. The Python code is my own.
+`docs/cuckoo-undergrad.pdf` is Rasmus Pagh's lecture note *Cuckoo Hashing for Undergraduates* (IT University of Copenhagen, 2006), included as reference material. The Python code is my own.
